@@ -4,7 +4,8 @@ Signal processing is done using gnuradio-companion and javascript. It runs on 2 
 
 More on https://f1atb.fr
 
-Release V1.1 here:
-https://github.com/F1ATB/Remote-SDR/releases/tag/V1.1
+Release V1.2 Source Code here:
+https://github.com/F1ATB/Remote-SDR/releases/tag/v1.2s
 
-Release v1.2 Image for Orange PI One Plus https://github.com/F1ATB/Remote-SDR/releases/tag/v1.2
+Release v1.2 Image for Orange PI One Plus 
+https://github.com/F1ATB/Remote-SDR/releases/tag/v1.2
