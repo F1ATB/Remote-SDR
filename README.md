@@ -7,8 +7,14 @@ More on https://f1atb.fr
 Release V1.3s Source Code here:
 https://github.com/F1ATB/Remote-SDR/releases/download/v1.3s/v1.3_RemSDR_2021_03_14.zip
 
+To update from v1.2 to v1.3, it is very simple:
+- replace the file "remote_sdr.htm" at the root of the site (/home/sdr/Desktop/RemSDR). It will display 2 compression laws for the TX (Audio1 and Audio2)
+- replace the file "remote_sdr.js" in the JS directory. It will update the version number displayed at the bottom left of the screen.
+- replace the file "remote_TX.js" in the JS directory. It will intoduce 2 compression laws for the TX to increase the mean power trasnmitted without saturation. See around line 200.
+
 Release V1.2s Source Code here:
 https://github.com/F1ATB/Remote-SDR/releases/tag/v1.2s
 
 Release v1.2 Image for Orange PI One Plus 
 https://github.com/F1ATB/Remote-SDR/releases/tag/v1.2
+
