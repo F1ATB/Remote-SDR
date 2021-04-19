@@ -1,0 +1,181 @@
+.para_TX{
+	position:absolute;
+	top:0%;
+	height:56%;
+	width:100%;
+	text-align:center;
+	border-bottom:3px solid azure;
+	overflow:hidden;
+}
+#echelleTX{
+	border:outset 3px #033;
+	width:100%;
+	height:20%;
+	background-color: #666;
+	position:absolute;
+	top:25%;
+}
+#curseurTX{
+	position:absolute;
+	top:0px;
+	left:0px;
+	margin-left:-1px;
+	width:2px;
+	height:100%;
+	background-color: LightSalmon;
+}
+#sliderFrTX{
+	position:absolute;
+	top:43%;
+	width:100%;
+	
+}
+#slider_Fr_TX{
+	
+}
+.Titre_Freq{
+	position:absolute;
+	top:7px;
+	left:5%;
+	font-size:22px;
+	font-weight: bold;
+}
+#val_Fr_TX{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	text-align:center;
+	font-size:32px;
+    height:20%;	
+}
+#val_Fr_TX div{
+	display:inline-block;
+	cursor:	ns-resize;
+}
+#FRT0,#FRT1,#FRT2,#FRT3{
+	font-size:12px;
+}
+#FRT0,#FRT3,#FRT6,#FRT9{
+	padding-left:4px;
+}
+#val_Of_TX div{
+	cursor:	ns-resize;
+	display:inline-block;
+}
+#OFT0,#OFT1,#OFT2,#OFT3{
+	font-size:10px;
+}
+#OFT0,#OFT3,#OFT6,#OFT9{
+	padding-left:4px;
+}
+.TX_RX{
+	position:absolute;
+	top:2px;
+	right:1%;
+}
+.TX_RX div{
+	display:inline-block;
+	background-color: #88a;   
+	border: outset 2px grey;
+	padding:4px;
+}
+#Env_Fr_TX{
+	position:absolute;
+	bottom:16%;
+	left:0px;
+	width:100%;
+}
+#visus_TX{
+	position:absolute;
+	bottom:0%;
+	width:100%;
+	padding:0px;
+	margin:0px;
+	height:16%;
+	border-top:3px solid azure;
+}
+
+#visus_TXt,#visus_TXf{
+	width:49%;
+	padding:0px;
+	margin:0px;
+	display:inline-block;
+	overflow:hidden;
+}
+#visus_TXt{
+	border-right:1px solid azure;
+}
+
+.para_TX_Audio{
+	position:absolute;
+	top:56%;
+	width:100%;
+	height:44%;
+	color:white;
+	text-align:center;
+	padding:0px;
+	margin:0px;
+}
+.para_TX_1{
+	position:absolute;
+	width:30%;
+	height:100%;
+	top:0px;
+	left:0px;
+}
+
+.para_TX_2{
+	position:absolute;
+	height:100%;
+	width:70%;
+	top:0px;
+	left:30%;
+	padding:2%;
+}
+.TXaudio_source div{
+	vertical-align:top;
+	text-align:left;
+}
+.reglages_TX_inf{
+	margin-top:5%;
+}
+.reglages_TX_inf div{
+	display:inline-block;
+	margin-top:10px;
+	margin-bottom:3px;
+}
+#start-audioTX{
+	background-color: #aab;
+	width:80%;
+	height:80%;
+	font-size:20px;
+	margin:10%;
+	position:relative;
+	cursor:pointer;
+}
+#start-audioTX:hover{
+	border-color:coral;
+}
+.TX_local{
+		margin-top:1%;
+}
+@media only screen and (max-height: 800px) {
+	#visus_TX {
+		display:none;
+	}
+	#Env_Fr_TX{
+		bottom:0%;
+	}
+}
+@media  screen and (max-height: 500px) {
+	.Titre_Freq{
+		font-size:14px;
+	}
+	#val_Fr_TX{
+		font-size:20px;
+	}
+	.TX_local{
+		display:none;
+	}
+}

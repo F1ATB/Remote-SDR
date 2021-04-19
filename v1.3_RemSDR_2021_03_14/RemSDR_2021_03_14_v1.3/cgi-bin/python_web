@@ -1,0 +1,2 @@
+nobody ALL=(ALL) NOPASSWD: /usr/bin/python2
+

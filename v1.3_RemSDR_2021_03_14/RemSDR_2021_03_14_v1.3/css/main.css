@@ -1,0 +1,918 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+	margin:0px;
+	padding: 0px;
+    font-family:Helvetica,Arial,sans-serif;
+    font-size:16px;
+    color:white;
+    background-color:black;
+	overflow:hidden;
+}
+a {
+	text-decoration: none;
+	color: grey;
+	background: none;
+}
+a:visited {
+	color: grey;
+}
+a:active {
+	color: grey;
+}
+a:hover {
+	text-decoration: underline;
+}
+.header {
+    background-color: #444;
+    color: white;
+    position: absolute;
+    width:100%;
+    top:0px;
+    z-index: 2000;    
+	height:5%;
+	text-align:center;
+	overflow:hidden;
+	border: outset 3px grey;
+}
+.titre{
+	font-size:20px;
+	font-weight: bold;
+	position:absolute;
+	bottom:10%;
+	width:100%;
+}
+
+.head_RXG,.head_Log,.head_TXG,.head_Par{	
+    position: absolute;
+    bottom:10%;
+	height:30px;
+	left:5%;
+    z-index: 5000;    
+	border: outset 2px grey;
+	padding:4px;
+	width:9%;
+	background-color: #88f;
+}
+.Head_RXon,.Head_TXon{
+	position: absolute;
+	bottom:10%;	
+	display:inline-block;
+}
+.Head_RXon{
+	text-align:left;
+	left:26%;
+}
+
+.Head_TXon{
+	text-align:right;
+	right:26%;
+}
+#RXonLed,#TXonLed{
+	width:14px;
+	height:14px;
+	border:2px outset grey;
+	border-radius:7px;
+	background-color: grey;
+	display:inline-block;
+}
+.head_TXG{
+	left:76%;
+}
+.head_Log{
+	left:15%;
+}
+.head_Par{
+	left:86%;
+}
+.head_reload,.head_FS{
+	position: absolute;
+    bottom:10%;
+	height:30px;
+	left:2%;
+    z-index: 5000;    
+	border: outset 2px grey;
+	padding:4px;
+	width:30px;
+	background-color: #88f;	
+}
+.head_reload{
+	background-image:url(/css/Image/reload.png);
+	background-size: contain;
+}
+.head_FS{
+	background-image:url(/css/Image/Carre.png);
+	background-size: contain;
+	left:96%;
+}
+
+.main{
+	position: absolute;
+	top:5%;
+	width:100%;
+	overflow:hidden;
+	bottom:0px;
+}
+.fenetres{
+	position: absolute;
+	top:0px;
+	width:100%;
+	height:40%;
+	
+}
+
+#fen_RX_main{
+	position: absolute;
+	top:0px;
+	left:30%;
+	width:35%;
+	overflow:hidden;
+	background-color: black;
+	border:inset 3px Azure;
+	color:white;
+	height:100%;
+}
+#fen_TX_main{
+	position: absolute;
+	top:0px;
+	left:65%;
+	width:35%;
+	overflow:hidden;
+	border:inset 3px Azure;
+	height:100%;
+}
+#fen_oscillo{
+	position: absolute;
+	left:0%;
+	top:0px;
+	width:30%;
+	height:100%;
+	z-index: 1000;
+	background-color: black;
+	overflow:hidden;
+	font-size:10px;
+}
+#Oscillo{
+	border:inset 3px Azure;
+	width:50%;
+	height:28%;
+	position: absolute;
+	top:0px;
+	left:0px;
+	z-index:1000;
+}
+#Oscillo_Scope{
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+}
+
+#inOscillo{
+	color:Aqua;
+	position: absolute;
+	top:5%;
+	left:5%;
+	z-index:1100;	
+}
+#outOscillo{
+	color:#FFFF00;
+	position: absolute;
+	top:5%;
+	right:55%;	
+	z-index:1200;
+}
+#Audio_RX_T{
+	border:inset 3px Azure;
+	width:50%;
+	height:28%;
+	position: absolute;
+	top:28%;
+	left:0px;
+	z-index:1050;
+}
+.Audio_RX_t{
+	color:#66aaFF;
+	position: absolute;
+	top:33%;
+	right:5%;
+	z-index:1060;
+}
+#Audio_RX_FFT{
+	border:inset 3px Azure;
+	position:absolute;
+	top:28%;
+	left:50%;
+	width:50%;
+	height:28%;
+	z-index:1070;
+}
+.Audio_RX_fftT{
+	color:#8888FF;
+	position: absolute;
+	top:33%;
+	right:5%;
+	z-index:1080;
+}
+
+#zSpectre{
+	position:absolute;
+	top:0%;
+	left:50%;
+	width:50%;
+	height:28%;
+	border:inset 3px Azure;
+}
+.fen_O1{
+	position:absolute;
+	top:56%;
+	left:0%;
+	width:100%;
+	height:44%;
+	border:inset 3px Azure;
+}
+.fen_O2{
+	position:absolute;
+	top:0%;
+	left:75%;
+	width:25%;
+	height:100%;
+	overflow:hidden;
+}
+#BandPlan{
+	position:absolute;
+	top:0%;
+	left:0%;
+	width:75%;
+	height:100%;
+	border-right:solid 3px Azure;
+	font-size:16px;
+}
+#ListeF{
+	cursor:pointer;
+	position:absolute;
+	top:0%;
+	left:0%;
+	width:100%;
+	overflow:hidden;
+	bottom:22px;
+	overflow-y: auto;
+}
+#SaisieF{
+	position:absolute;
+	height:22px;
+	left:0%;
+	width:100%;
+	bottom:0px;
+	background-color: #223;
+	overflow:hidden;
+}
+#Fsaisie{
+	position:absolute;
+	top:0px;
+	left:0%;
+}
+#SaisieF input{
+	position:absolute;
+	top:0px;
+	left:90px;
+	right:16%;
+}
+.Ssaisie{
+	position:absolute;
+	top:0px;
+	left:85%;
+	background-color: #88a;  
+	border: outset 2px grey;
+	text-align:center;
+	right:0%;
+}
+.DSaisie{
+		width:20px;
+		display:inline-block;
+		margin-left:4px;
+}
+
+
+#visus{
+	position: absolute;
+	top:40%;
+	width:100%;
+	overflow:hidden;
+	height:60%;
+}
+#spectre{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:40%;
+	border:inset 15px #aaa;
+	overflow:hidden;
+	z-index:1200;
+}
+#mySpectre{
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	z-index:1000;
+}
+#EchSpectre{
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	z-index:1000;
+}
+#paraSpectre,#paraWater{
+	position: absolute;
+	top:1000px;
+	left:0px;
+	width:30%;	
+    background: #aaa;
+	z-index:1300;
+	border: ridge 5px #777;
+	border-radius: 10px;
+	padding:20px;
+	opacity:0.7;
+	overflow:hidden;
+}
+.parafleche{
+	position: absolute;
+	top:0;
+	left:0;
+	width:22px;
+	height:22px;
+    border:2px outset grey;	
+	border-radius: 2px;
+	background-image:url(/css/Image/fleche_SE.png);
+	background-size: cover;
+	opacity:1;
+	background-color: #88f;
+}
+
+
+#echelle{
+	position: absolute;;
+	top:40%;
+	left:0px;
+	width:100%;
+	height:10%;
+	background-color: #445;
+	border:solid 15px #445;
+	color:#fff;
+	z-index:1100;
+}
+#echelle_track{
+	position: absolute;
+	top:48%;
+	left:0px;
+	width:100%;
+	height:2%;	
+	z-index:1110;
+}
+
+#echelle_track div{
+	position: absolute;
+	top:0px;
+	width:14px;
+	z-index:1120;
+	margin-left:-7px;
+	color:DarkOrange;
+	text-align:center;
+}
+#echelle_Label{
+	position: absolute;
+	top:48%;
+	left:0px;
+	width:100%;
+	height:2%;	
+	z-index:1120;
+}
+#echelle_Label div{
+	position: absolute;
+	top:0%;
+	font-size:8px;
+	color:#AAF;
+	border-left:2px solid #AAF;
+	padding-left:1px;
+	margin-left:-1px;
+}
+
+#waterfall{
+	position: absolute;;
+	top:50%;
+	left:0px;
+	width:100%;
+	height:50%;
+	overflow:hidden;
+	border:inset 15px #888;
+    z-index:1010;
+}
+#waterfall_in{
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	z-index:1020;
+}
+.myWaterfall{
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	z-index:1050;
+}
+#f1atb{
+	position: absolute;
+	bottom:10px;
+	left:10px;
+	font-size:10px;
+	text-align:center;
+	color:grey;
+	z-index:4000;
+}
+#curseur{
+	position:absolute;
+	top:0px;
+	height:100%;
+	left:50%;
+	width:20px;
+	cursor: e-resize;	
+	z-index:3000;
+	background-color: rgba(100,100,100,0.1);
+}
+.ligne{
+	position:absolute;
+	top:0px;
+	height:100%;
+	left:10px;
+	width:2px;
+	border-left:1px red solid;
+}
+#Curseur_TX{
+	position:absolute;
+	top:0px;
+	height:100%;
+	left:10px;
+	width:1px;
+	border-left:1px LightSalmon dashed;
+	z-index:3050;
+}
+.Zone_Fr{
+	position:relative;
+	border-bottom:3px solid Azure;	
+	height:56%;
+	text-align:center;
+}
+.Zone_Fr1{
+	padding-top:1%;
+	height:19%;
+}
+.Z_Fr2{
+	height:28%;
+	margin-top:1%;
+}
+.Z_Fr3{
+	height:32%;
+}
+.Zone_Au{
+	
+	position:relative;
+	height:44%;
+}
+.Zone_Au1{
+	width:30%;
+	height:100%;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+.Zone_Au2{
+	width:70%;
+	text-align:center;
+	height:100%;
+	position:absolute;
+	top:0px;
+	left:30%;
+	padding:2%;
+}
+.Zone_Au3{
+	width:49%;
+	display:inline-block;
+}
+.Zone_Au4{
+	width:49%;
+	display:inline-block;
+}
+.Zone_Au5{
+	margin-top:5%;
+}
+#start-audio{
+	margin:10%;
+	height:80%;
+	position:relative;
+	width:80%;
+	background-color: #aab;
+	Font-size:20px;
+	cursor:pointer;
+	text-align:center;
+}
+#start-audio:hover{
+	border-color:coral;
+}
+#Frequence_AudioRX{
+	width:100%;
+	text-align:center;
+	font-size:32px;
+	height:20%;	
+}
+#Frequence_AudioRX div{
+	display:inline-block;
+	cursor:	ns-resize;
+}
+#FRX0,#FRX1,#FRX2,#FRX3{
+	font-size:12px;
+}
+#FRX0,#FRX3,#FRX6,#FRX9{
+	padding-left:4px;
+}
+.tc25{
+	display:inline-block;
+	width:24%;
+	margin:0%;
+	
+}
+
+.tc50{
+	display:inline-block;
+	width:49%;
+	margin:0.1%;
+}
+.tc75{
+	display:inline-block;
+	width:74%;
+	margin:0.1%;
+}
+.tc100{
+	width:100%;
+	padding:0%;
+}
+
+#BandeRX{
+	
+	text-align:center;
+	display:inline-block;
+	width:65%;
+}
+#bandSelectRX{
+	width:30%;
+}
+.radio_mode{
+	display:inline-block;
+	width:34%;
+	text-align:center;
+	
+}
+.lesOffsets{
+	font-size:12px;	
+}
+.Auto_Offset div{
+		display:inline-block;
+		font-size:12px;	
+}
+#F_Offset_locked{
+	width:14px;
+	height:14px;
+	border:2px outset grey;
+	border-radius:7px;
+	background-color: grey;
+	margin-left:5px;
+	display:inline-block;
+}
+#F_df{
+	width:40px;
+	font-size:10px;
+	display:inline-block;
+	text-align:right;
+}
+
+#offset div,#Ecart_LNB div,#SDR_Freq div{
+	display:inline-block;
+}#Ecart_LNB{
+	cursor:	ns-resize;
+	
+}
+#OFS0,#OFS1,#OFS2,#OFS3,#DOF0,#DOF1,#DOF2,#DOF3,#SFr0,#SFr1,#SFr2,#SFr3{
+	font-size:10px;
+}
+#OFS0,#OFS3,#OFS6,#OFS9,#DOF0,#DOF3,#DOF6,#DOF9,#SFr0,#SFr3,#SFr6,#SFr9{
+	padding-left:4px;
+}
+
+#Smetre{
+	position:absolute;
+	top:0%;
+	left:0%;
+	height:100%;
+	width: 100%;
+	z-index:100000;
+	font-size:20px;
+	background-color: black;
+	overflow:hidden;
+	cursor:pointer;
+}
+#Smetre_fond{
+	position:absolute;
+	width:100%;
+	height:100%;
+	
+}
+#Smetre_label{
+	position:absolute;
+	width:100%;
+	height:100%;
+	font-size:8px;
+	
+}
+#Smetre_label div{
+	position:absolute;
+	margin-top:0px;
+	margin-left:0px;
+	transform-origin: center;
+	width:30px;
+	height:20px;
+	margin-top:-10px;
+	margin-left:-15px;
+	text-align:center;
+}
+
+#SM_fleche{
+	position:absolute;
+	width:3px;
+	left:50%;
+	margin-left:-1px;
+	height:100%;
+	bottom:0px;
+	background-color: #aaf;
+	
+}
+
+#Smetre_RC{
+	position:absolute;
+	bottom:0px;
+	width:50px;
+	text-align:center;
+	font-size:20px;
+	background-color: #333;
+	border-radius:15px;
+	padding:2px;
+	left:50%;
+	margin-left:-25px;
+}
+.SM_noise{
+	position:absolute;
+	bottom:30px;
+	width:100%;
+	text-align:center;
+	font-size:8px;
+	color:grey;
+}
+
+#fen_GainsRX,#fen_Log,#fen_GainsTX,#fen_Par{
+	position: absolute;
+	top:0%;
+	left:5%;
+	width:20%;
+	min-width:250px;
+	overflow:hidden;
+	background-color: #88a;
+	border:inset 10px #aac;
+	text-align:center;
+	
+	color:white;
+	z-index:10000;
+	display:none;
+	
+}
+#fen_GainsRX div ,#fen_Log div,#fen_GainsTX div,#fen_Par div {
+	margin:6px;
+}
+
+#fen_Log{
+	left:11%;
+}
+
+.log_table{
+	text-align:left;
+	width:100%;
+}
+.log_table div{
+	width:14px;
+	height:14px;
+	border:2px outset grey;
+	border-radius:7px;
+	background-color: grey;
+}
+#fen_GainsTX{
+	left:60%;
+}
+#fen_Par{
+	left:30%;
+	width:450px
+}
+
+#TX_IP,#RX_IP{
+	width:120px;
+}
+#TX_Port,#RX_Port{
+	width:50px;
+}
+.ports{display:inline-block;font-size:8px;width:30%;text-align:left;}
+.titre_fen{
+	font-size:14px;
+	font-weight: bold;
+	margin:0px;
+	background-color: #77a;
+	padding:2px;
+}
+.close_fen{
+	margin:0px;
+	font-size:14px;
+	font-weight: bold;
+	position:absolute;
+	top:-6px;
+	right:0px;
+	border:solid 2px grey;
+	background-color: #77a;
+}
+.close_fen:hover,.hover:hover{
+	background-color: Coral;
+	cursor:pointer;
+}
+.ui-slider{
+	margin:4px;
+}
+.clearRX{
+	position:absolute;
+	top:10px;
+	right:5%;
+	font-size:10px;
+	background-color: #88a; 
+	border: outset 2px grey;
+	padding:2px;	
+}
+
+.coral:hover,.TX_RX div:hover{
+	background-color: Coral;
+	cursor:pointer;
+}
+
+#zoom_freq{
+	position:absolute;
+	top:0px;
+	left:50%;
+	margin-left:-200px;
+	width:400px;
+	text-align:center;
+	font-size:32px;
+	background-color: black; 
+	border: inset 3px grey;
+	padding:2px;
+    display:none;
+	z-index:110000;
+}
+#zoom_freq div{
+	margin:4px;
+}
+#zoom_freq_in div{
+	display:inline-block;
+	cursor:	ns-resize;
+}
+#ZFr0,#ZFr1,#ZFr2,#ZFr3{
+	font-size:20px;
+}
+#ZFr0,#ZFr3,#ZFr6,#ZFr9{
+	padding-left:8px;
+}
+ /* For small screen */
+@media only screen and (max-width: 1400px) {
+    
+	body {
+		font-size:12px;
+	}
+}
+
+
+@media  screen and ( max-width: 1200px ), screen and (max-height: 800px) {
+	body {
+		font-size:10px;
+	}
+	.head_RXG,.head_Log,.head_TXG,.head_Par{
+		height:16px;
+		padding:0px;
+		bottom:1%;
+		
+	}
+	.header{
+		border:2px;
+	}
+	.titre{
+		font-size:12px;
+	}
+	.head_reload,.head_FS{
+		bottom:1%;
+		height:16px;    
+		border: outset 2px grey;
+		padding:0px;
+		width:16px;
+	}
+	#Oscillo,#Audio_RX_T,.Audio_RX_t,#zSpectre,#BandPlan,#inOscillo,#outOscillo{
+		display:none;
+	}
+	#fen_RX_main{
+		left:14%;
+		width:46%;	
+	}
+	#fen_TX_main{
+		left:60%;
+		width:40%;
+	}
+	#fen_oscillo{
+		width:14%;
+	}
+	.fen_O2{
+		left:0%;
+		width:100%;
+	}
+	#Audio_RX_FFT{
+		top:0%;
+		left:0%;
+		width:100%;
+		height:56%;
+	}
+	select,input{
+		font-size:10px;
+	}
+	.Zone_Fr1{
+		padding-top:0%;		
+	}
+	.fenetres{
+		height:65%;
+	}
+	#visus{
+		height:35%;
+		top:65%;
+	}	
+	#spectre{
+		display:none;
+	}
+	#echelle{
+		top:0%;
+		height:30%;
+	}
+	#waterfall{
+		top:30%;
+		height:70%;
+	}
+	#echelle_track,#echelle_Label{
+		top:27%;
+	}
+	.lesOffsets{
+		font-size:9px;	
+	}
+	#OFS0,#OFS1,#OFS2,#OFS3,#DOF0,#DOF1,#DOF2,#DOF3,#SFr0,#SFr1,#SFr2,#SFr3{
+		font-size:8px;
+	}
+	#OFS0,#OFS3,#OFS6,#OFS9,#DOF0,#DOF3,#DOF6,#DOF9,#SFr0,#SFr3,#SFr6,#SFr9{
+		padding-left:2px;
+	}
+	.Auto_Offset div{
+			font-size:8px;	
+	}
+	#F_Offset_locked{
+		width:10px;
+		height:10px;
+		border-radius:5px;
+		background-color: grey;
+		margin-left:2px;
+	}
+	#F_df{
+		width:30px;
+		font-size:8px;
+		text-align:right;
+	}
+}
+@media  screen and (max-height: 500px) {
+	#Frequence_AudioRX{
+		font-size:20px;
+	}
+}
