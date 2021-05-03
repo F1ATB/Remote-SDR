@@ -3,6 +3,8 @@ Remote-SDR remotely controls a SDR receiver and a SDR transmitter from a web bro
 Signal processing is done using gnuradio-companion and javascript. It runs on 1 or 2 Orange Pi One Plus micro processors under Armbian operating system to drivethe SDRs.
 
 More on https://f1atb.fr
+Release v2.0s Surce Code here;
+https://github.com/F1ATB/Remote-SDR/releases/tag/v2.0s
 
 Release V1.3s Source Code here:
 https://github.com/F1ATB/Remote-SDR/releases/download/v1.3s/v1.3_RemSDR_2021_03_14.zip
