@@ -2,6 +2,8 @@
 Remote-SDR remotely controls a SDR receiver and a SDR transmitter from a web browser. Pre-configured for the QO-100 Es'Hail 2 satellite transponder. Can be used for any NBFM or SSB Radio from 1MHz up to 6 GHz. It can works in full duplex with Adalm-Pluto SDR, HackRF One or RTL-SDR.
 Signal processing is done using gnuradio-companion and javascript. It runs on 1 or 2 Orange Pi One Plus micro processors under Armbian operating system to drive the SDRs. It runs also now on an Orange Pi Zero 2 with Debian operating system from orangepi.org.
 
+Latest release V2.1 improves Remote SDR when used with a smartphone. You can pass from release v2.0 to v2.1 by replacing all the files in /var/www/html except configurationRX.js and configurationTX.js if you already customize them.
+
 More on https://f1atb.fr
 
 Release v2.1_i_opioneplus Image for Orange Pi One Plus
