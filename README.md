@@ -1,22 +1,25 @@
 # Remote-SDR
-Remote-SDR remotely controls a SDR receiver and a SDR transmitter from a web browser. Pre-configured for the QO-100 Es'Hail 2 satellite transponder. Can be used for any NBFM or SSB Radio from 1MHz up to 6 GHz. It can works in full duplex with Adalm-Pluto SDR, HackRF One or RTL-SDR
+Remote-SDR remotely controls a SDR receiver and a SDR transmitter from a web browser. Pre-configured for the QO-100 Es'Hail 2 satellite transponder. Can be used for any NBFM or SSB Radio from 1MHz up to 6 GHz. It can works in full duplex with Adalm-Pluto SDR, HackRF One or RTL-SDR.
 Signal processing is done using gnuradio-companion and javascript. It runs on 1 or 2 Orange Pi One Plus micro processors under Armbian operating system to drive the SDRs. It runs also now on an Orange Pi Zero 2 with Debian operating system from orangepi.org.
 
 More on https://f1atb.fr
 
-Release v2.1i_opiz2 Image for Orange Pi Zero 2
+Release v2.1_i_opioneplus Image for Orange Pi One Plus
+https://github.com/F1ATB/Remote-SDR/releases/tag/v2.1i_opioneplus
+
+Release v2.1_i_opiz2 Image for Orange Pi Zero 2
 https://github.com/F1ATB/Remote-SDR/releases/tag/v2.1i_opiz2
 
-Release v2.1s Source code here:
+Release v2.1_s Source code here:
 https://github.com/F1ATB/Remote-SDR/releases/tag/v2.1s
 
-Release v2.0i Image for Orange Pi One Plus here:
+Release v2.0_i Image for Orange Pi One Plus here:
 https://github.com/F1ATB/Remote-SDR/releases/tag/v2.0i
 
-Release v2.0s Surce Code here;
+Release v2.0_s Surce Code here;
 https://github.com/F1ATB/Remote-SDR/releases/tag/v2.0s
 
-Release V1.3s Source Code here:
+Release V1.3_s Source Code here:
 https://github.com/F1ATB/Remote-SDR/releases/download/v1.3s/v1.3_RemSDR_2021_03_14.zip
 
 To update from v1.2 to v1.3, it is very simple:
