@@ -2,7 +2,9 @@
 Remote-SDR remotely controls a SDR receiver and a SDR transmitter from a web browser. Pre-configured for the QO-100 Es'Hail 2 satellite transponder. Can be used for any NBFM or SSB Radio from 1MHz up to 6 GHz. It can works in full duplex with Adalm-Pluto SDR, HackRF One or RTL-SDR.
 Signal processing is done using gnuradio-companion and javascript. It runs on 1 or 2 Orange Pi One Plus micro processors under Armbian operating system to drive the SDRs. It runs also now on an Orange Pi Zero 2 with Debian operating system from orangepi.org.
 
-Latest release V2.2 implements the capability to set to 0 or 1 any GPIO according the frequency of the transmitter or receiver. You can pass from release v2.0, v2.1  to v2.2 by replacing all the files in /var/www/html. Take care of  configurationRX.js and configurationTX.js if you already customize them.
+Release V2.2 implements the capability to set to 0 or 1 any GPIO according the frequency of the transmitter or receiver. You can pass from release v2.0, v2.1  to v2.2 by replacing all the files in /var/www/html. Take care of  configurationRX.js and configurationTX.js if you already customize them.
+
+Release v2.3 improves the beacons tracking of QO-100. As upper and lower beacons now are transmitting CW with an important frequency shift and no more PSK, the tracking algorithm has been updated.
 
 More on https://f1atb.fr
 
