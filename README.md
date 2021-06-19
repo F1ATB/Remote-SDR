@@ -6,6 +6,9 @@ Latest release V2.2 implements the capability to set to 0 or 1 any GPIO accordin
 
 More on https://f1atb.fr
 
+Release v2.3s Source code here:
+https://github.com/F1ATB/Remote-SDR/releases/tag/v2.3s
+
 Release v2.2_s Source code here:
 https://github.com/F1ATB/Remote-SDR/releases/tag/v2.2s
 
