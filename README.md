@@ -8,7 +8,7 @@ Release v2.3 improves the beacons tracking of QO-100. As upper and lower beacons
 
 More on https://f1atb.fr
 
-Release v2.3i_opiz2 Image for Orange Pi Zeo 2
+Release v2.3i_opiz2 Image for Orange Pi Zero 2
 https://github.com/F1ATB/Remote-SDR/releases/tag/v2.3i_opiz2
 
 Release v2.3s Source code here:
