@@ -8,6 +8,9 @@ Release v2.3 improves the beacons tracking of QO-100. As upper and lower beacons
 
 More on https://f1atb.fr
 
+Release v2.4.i_rpi4 Image for Raspberry Pi 4
+https://github.com/F1ATB/Remote-SDR/releases/tag/v2.4i_rpi4
+
 Release v2.4s Source code here:
 https://github.com/F1ATB/Remote-SDR/releases/tag/v2.4s
 
