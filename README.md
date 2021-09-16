@@ -6,6 +6,10 @@ Release V2.2 implements the capability to set to 0 or 1 any GPIO according the f
 
 Release v2.3 improves the beacons tracking of QO-100. As upper and lower beacons now are transmitting CW with an important frequency shift and no more PSK, the tracking algorithm has been updated.
 
+Release v2.4 introduces the radio processing with a Raspberry Pi 4B.
+
+Release 2.5 offers the processing of 2 HackRF One (TX and RX) by the Raspberry Pi 4B.
+
 More on https://f1atb.fr
 
 Release v2.5s Source code here:
