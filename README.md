@@ -7,6 +7,8 @@ Release V2.2 implements the capability to set to 0 or 1 any GPIO according the f
 Release v2.3 improves the beacons tracking of QO-100. As upper and lower beacons now are transmitting CW with an important frequency shift and no more PSK, the tracking algorithm has been updated.
 
 More on https://f1atb.fr
+Releas v2.5.i_rpi4 Image for Raspberry Pi 4
+https://github.com/F1ATB/Remote-SDR/releases/tag/v2.5i_rpi4
 
 Release v2.4.i_rpi4 Image for Raspberry Pi 4
 https://github.com/F1ATB/Remote-SDR/releases/tag/v2.4i_rpi4
