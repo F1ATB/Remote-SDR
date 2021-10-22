@@ -12,6 +12,9 @@ Release 2.5 offers the processing of 2 HackRF One (TX and RX) by the Raspberry P
 
 More on https://f1atb.fr
 
+Release v3.0i_opiz2 Image for Orange Pi Zero 2
+https://github.com/F1ATB/Remote-SDR/releases/tag/v3.0i_opiz2
+
 Release v2.5i_opiz2 Image for Orange Pi Zero 2
 https://github.com/F1ATB/Remote-SDR/releases/tag/v2.5i_opiz2
 
