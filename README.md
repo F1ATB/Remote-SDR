@@ -1,14 +1,12 @@
 # Remote-SDR
-Remote-SDR remotely controls a SDR receiver and a SDR transmitter from a web browser. Pre-configured for the QO-100 Es'Hail 2 satellite transponder. Can be used for any NBFM or SSB Radio from 1MHz up to 6 GHz. It can works in full duplex with Adalm-Pluto SDR, HackRF One or RTL-SDR.
-Signal processing is done using gnuradio-companion and javascript. It runs on 1 or 2 Orange Pi One Plus single board computers under Armbian operating system to drive the SDRs. It runs also now on an Orange Pi Zero 2 with Debian operating system from orangepi.org. It runs since version 2.4 on Raspberry 4 using Rasperry Pi OS.
-
-Release V2.2 implements the capability to set to 0 or 1 any GPIO according the frequency of the transmitter or receiver. You can pass from release v2.0, v2.1  to v2.2 by replacing all the files in /var/www/html. Take care of  configurationRX.js and configurationTX.js if you already customize them.
-
-Release v2.3 improves the beacons tracking of QO-100. As upper and lower beacons now are transmitting CW with an important frequency shift and no more PSK, the tracking algorithm has been updated.
+Remote-SDR remotely controls a SDR receiver and a SDR transmitter from a web browser. Pre-configured for the QO-100 Es'Hail 2 satellite transponder. Can be used for any NBFM or SSB Radio from 1MHz up to 6 GHz. It can works in full duplex with Adalm-Pluto SDR, HackRF One, RTL-SDR or SA818.
+Signal processing is done using gnuradio-companion and javascript. It runs on 1 or 2 Orange Pi One Plus single board computers under Armbian operating system to drive the SDRs. It runs also now on an Orange Pi Zero 2 with Armbian (Bullseye). It runs since version 2.4 on Raspberry 4 using Rasperry Pi OS.
 
 Release v2.4 introduces the radio processing with a Raspberry Pi 4B.
 
 Release 2.5 offers the processing of 2 HackRF One (TX and RX) by the Raspberry Pi 4B.
+
+Release V3.0 introduces the Debian (Bullseye) operating system , GNU Radio 3.8 and an interface to Gpredict.
 
 More on https://f1atb.fr
 
