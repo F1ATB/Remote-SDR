@@ -10,6 +10,9 @@ Release V3.0 introduces the Debian (Bullseye) operating system , GNU Radio 3.8 a
 
 More on https://f1atb.fr
 
+Release v3.1 Source code here :
+https://github.com/F1ATB/Remote-SDR/releases/tag/v3.1s
+
 Release v3.0i_rpi4 Image for Raspberry Pi 4B
 https://github.com/F1ATB/Remote-SDR/releases/tag/v3.0i_rpi4
 
@@ -28,35 +31,6 @@ https://github.com/F1ATB/Remote-SDR/releases/tag/v2.5s
 Release v2.5.i_rpi4 Image for Raspberry Pi 4
 https://github.com/F1ATB/Remote-SDR/releases/tag/v2.5i_rpi4
 
-Release v2.4.i_rpi4 Image for Raspberry Pi 4
-https://github.com/F1ATB/Remote-SDR/releases/tag/v2.4i_rpi4
-
-Release v2.4s Source code here:
-https://github.com/F1ATB/Remote-SDR/releases/tag/v2.4s
-
-Release v2.3i_opiz2 Image for Orange Pi Zero 2
-https://github.com/F1ATB/Remote-SDR/releases/tag/v2.3i_opiz2
-
-Release v2.3s Source code here:
-https://github.com/F1ATB/Remote-SDR/releases/tag/v2.3s
-
-Release v2.2_s Source code here:
-https://github.com/F1ATB/Remote-SDR/releases/tag/v2.2s
-
-Release v2.1_i_opioneplus Image for Orange Pi One Plus
-https://github.com/F1ATB/Remote-SDR/releases/tag/v2.1i_opioneplus
-
-Release v2.1_i_opiz2 Image for Orange Pi Zero 2
-https://github.com/F1ATB/Remote-SDR/releases/tag/v2.1i_opiz2
-
-Release v2.1_s Source code here:
-https://github.com/F1ATB/Remote-SDR/releases/tag/v2.1s
-
-Release v2.0_i Image for Orange Pi One Plus here:
-https://github.com/F1ATB/Remote-SDR/releases/tag/v2.0i
-
-Release v2.0_s Source Code here;
-https://github.com/F1ATB/Remote-SDR/releases/tag/v2.0s
 
 
 
