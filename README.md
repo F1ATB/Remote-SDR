@@ -12,7 +12,10 @@ Release v4.0 introduces the new Raspberry OS (Bullseye) for the Raspberry Pi 4B
 
 More on https://f1atb.fr
 
-<h3>Releases :</h3>
+<h3>Version 4 Releases :</h3>
+Release v4.0i_opi1 Image for Orange One Plus
+https://github.com/F1ATB/Remote-SDR/releases/tag/v4.0i_opi1
+
 Release v4.0i_opiz2 Image for Orange Pi Zero 2
 https://github.com/F1ATB/Remote-SDR/releases/tag/v4.0i_opiz2
 
@@ -22,6 +25,7 @@ https://github.com/F1ATB/Remote-SDR/releases/tag/v4.0s
 Release v4.0i_rpi4 Image for Raspberry Pi 4B
 https://github.com/F1ATB/Remote-SDR/releases/tag/v4.0i_rpi4
 
+<h3>Version 3 Releases :</h3>
 Release v3.2s Source code here :
 https://github.com/F1ATB/Remote-SDR/releases/tag/v3.2s
 
