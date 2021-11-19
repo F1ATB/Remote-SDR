@@ -10,8 +10,8 @@ Release V3.0 introduces the Debian (Bullseye) operating system , GNU Radio 3.8 a
 
 More on https://f1atb.fr
 
-Release v4.0_rpi4 Image for Raspberry Pi 4B
-https://github.com/F1ATB/Remote-SDR/releases/tag/v4.0_rpi4
+Release v4.0i_rpi4 Image for Raspberry Pi 4B
+https://github.com/F1ATB/Remote-SDR/releases/tag/v4.0i_rpi4
 
 Release v3.2s Source code here :
 https://github.com/F1ATB/Remote-SDR/releases/tag/v3.2s
