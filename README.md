@@ -15,6 +15,9 @@ Release v4.1 introduces CW signal processing and automatic CW manipulator.
 More on https://f1atb.fr
 
 <h3>Version 4 Releases :</h3>
+Release v4.1s Source code here :
+https://github.com/F1ATB/Remote-SDR/releases/tag/v4.1s
+
 Release v4.0i_opi1 Image for Orange One Plus
 https://github.com/F1ATB/Remote-SDR/releases/tag/v4.0i_opi1
 
