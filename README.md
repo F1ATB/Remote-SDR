@@ -8,7 +8,9 @@ Release 2.5 offers the processing of 2 HackRF One (TX and RX) by the Raspberry P
 
 Release V3.0 introduces the Debian (Bullseye) operating system , GNU Radio 3.8 and an interface to Gpredict.
 
-Release v4.0 introduces the new Raspberry OS (Bullseye) for the Raspberry Pi 4B
+Release v4.0 introduces the new Raspberry OS (Bullseye) for the Raspberry Pi 4B.
+
+Release v4.1 introduces CW signal processing and automatic CW manipulator.
 
 More on https://f1atb.fr
 
