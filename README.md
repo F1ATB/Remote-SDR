@@ -15,6 +15,9 @@ Release v4.1 introduces CW signal processing and automatic CW manipulator.
 More on https://f1atb.fr
 
 <h3>Version 4 Releases :</h3>
+Release v4.1i_rpi4 Image for Raspberry Pi 4B
+https://github.com/F1ATB/Remote-SDR/releases/tag/v4.1i_rpi4
+
 Release v4.1s Source code here :
 https://github.com/F1ATB/Remote-SDR/releases/tag/v4.1s
 
