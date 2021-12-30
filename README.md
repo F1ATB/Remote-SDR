@@ -12,9 +12,18 @@ Release v4.0 introduces the new Raspberry OS (Bullseye) for the Raspberry Pi 4B.
 
 Release v4.1 introduces CW signal processing and automatic CW manipulator.
 
+Release 4.2 introduces audio equalizers and noise filters.
+
 More on https://f1atb.fr
 
 <h3>Version 4 Releases :</h3>
+
+Release v4.2s Source code here :
+https://github.com/F1ATB/Remote-SDR/releases/tag/v4.2s
+
+Release v4.2i_rpi4 Image for Raspberry Pi 4B
+https://github.com/F1ATB/Remote-SDR/releases/tag/v4.2i_rpi4
+
 
 Release v4.1i_opiz2 Image for Orange Pi Zero 2
 https://github.com/F1ATB/Remote-SDR/releases/tag/v4.1i_opiz2
