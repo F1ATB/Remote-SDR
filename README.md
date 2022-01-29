@@ -9,7 +9,28 @@ Release v4.1 introduces CW signal processing and automatic CW manipulator.
 
 Release 4.2 introduces audio equalizers and noise filters.
 
+Release 4.3 provides additional audio input/output to connect to external software (SSTV, FT8, Digi Modes..)
+
+Release 4.4 allows IP ports selection to use Remote SDR via a NAT (Network Address Translation)
+
+
 More on https://f1atb.fr
+
+<h3>Version 4.4 Releases :</h3>
+
+Release v4.4s Source code here :
+https://github.com/F1ATB/Remote-SDR/releases/tag/v4.4s
+
+<h3>Version 4.3 Releases :</h3>
+
+Release v4.3s Source code here :
+https://github.com/F1ATB/Remote-SDR/releases/tag/v4.3s
+
+Release v4.3i_rpi4 Image for Raspberry Pi 4B:
+https://github.com/F1ATB/Remote-SDR/releases/tag/v4.3i_rpi4
+
+Release v4.3i_opiz2 Image for Orange Pi Zero 2:
+https://github.com/F1ATB/Remote-SDR/releases/tag/v4.3i_opiz2
 
 <h3>Version 4.2 Releases :</h3>
 
