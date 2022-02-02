@@ -21,6 +21,9 @@ More on https://f1atb.fr
 Release v4.4s Source code here :
 https://github.com/F1ATB/Remote-SDR/releases/tag/v4.4s
 
+Release v4.4i_rpi4 Image for Raspberry Pi 4B:
+https://github.com/F1ATB/Remote-SDR/releases/tag/v4.4i_rpi4
+
 <h3>Version 4.3 Releases :</h3>
 
 Release v4.3s Source code here :
