@@ -24,6 +24,9 @@ https://github.com/F1ATB/Remote-SDR/releases/tag/v4.5s
 Release v4.5i_rpi4 Image for Raspberry Pi 4B: 
 https://github.com/F1ATB/Remote-SDR/releases/tag/v4.5i_rpi4
 
+Release v4.5i_opiz2 Image for Orange Pi Zero 2:
+https://github.com/F1ATB/Remote-SDR/releases/tag/v4.5i_opiz2
+
 <h3>Version 4.4 Releases :</h3>
 
 Release v4.4s Source code here :
