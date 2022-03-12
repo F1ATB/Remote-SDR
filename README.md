@@ -6,13 +6,13 @@ Release v4.0 introduces the new Raspberry OS (Bullseye) for the Raspberry Pi 4B.
 
 Release v4.1 introduces CW signal processing and automatic CW manipulator.
 
-Release 4.2 introduces audio equalizers and noise filters.
+Release v4.2 introduces audio equalizers and noise filters.
 
-Release 4.3 provides additional audio input/output to connect to external software (SSTV, FT8, Digi Modes..)
+Release v4.3 provides additional audio input/output to connect to external software (SSTV, FT8, Digi Modes..)
 
-Release 4.4 allows IP ports selection to use Remote SDR via a NAT (Network Address Translation)
+Release v4.4 allows IP ports selection to use Remote SDR via a NAT (Network Address Translation)
 
-Release v5.0 introduces RTTY and frequency extension below 28MHZ for RTL-SDR V3
+Release v4.5 introduces RTTY and frequency extension below 28MHZ for RTL-SDR V3
 
 More on https://f1atb.fr
 
