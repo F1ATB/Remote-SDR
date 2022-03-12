@@ -2,17 +2,17 @@
 Remote-SDR remotely controls a SDR receiver and a SDR transmitter from a web browser. Pre-configured for the QO-100 Es'Hail 2 satellite transponder. Can be used for any NBFM, SSB or CW Radio from 1MHz up to 6 GHz. It can works in full duplex with Adalm-Pluto SDR, HackRF One, RTL-SDR or SA818.
 Signal processing is done using gnuradio-companion and javascript. It runs on 1 or 2 Orange Pi One Plus single board computers under Armbian operating system to drive the SDRs. It runs also now on an Orange Pi Zero 2 with Armbian (Bullseye). It runs since version 2.4 on Raspberry 4 using Rasperry Pi OS.
 
-Release v4.0 introduces the new Raspberry OS (Bullseye) for the Raspberry Pi 4B.
+Version 4.0 introduces the new Raspberry OS (Bullseye) for the Raspberry Pi 4B.
 
-Release v4.1 introduces CW signal processing and automatic CW manipulator.
+Version 4.1 introduces CW signal processing and automatic CW manipulator.
 
-Release v4.2 introduces audio equalizers and noise filters.
+Version 4.2 introduces audio equalizers and noise filters.
 
-Release v4.3 provides additional audio input/output to connect to external software (SSTV, FT8, Digi Modes..)
+Version 4.3 provides additional audio input/output to connect to external software (SSTV, FT8, Digi Modes..)
 
-Release v4.4 allows IP ports selection to use Remote SDR via a NAT (Network Address Translation)
+Version 4.4 allows IP ports selection to use Remote SDR via a NAT (Network Address Translation)
 
-Release v4.5 introduces RTTY and frequency extension below 28MHZ for RTL-SDR V3
+Version 4.5 introduces RTTY and frequency extension below 28MHZ for RTL-SDR V3
 
 More on https://f1atb.fr
 
