@@ -14,6 +14,8 @@ Version 4.4 allows IP ports selection to use Remote SDR via a NAT (Network Addre
 
 Version 4.5 introduces RTTY and frequency extension below 28MHZ for RTL-SDR V3
 
+Version 5.0 is a complete redesign of the communications and the introduction of the SDR Play RSP1 and RSP1A.
+
 More on https://f1atb.fr
 
 <h3>Version 5.0 Releases :</h3>
