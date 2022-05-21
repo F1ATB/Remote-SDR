@@ -16,6 +16,13 @@ Version 4.5 introduces RTTY and frequency extension below 28MHZ for RTL-SDR V3
 
 More on https://f1atb.fr
 
+<h3>Version 5.0 Releases :</h3>
+Release  v5.0i_rpi4 Image for Raspberry 4
+https://github.com/F1ATB/Remote-SDR/releases/tag/v5.0i_rpi4
+
+Release  v5.0i_opiz2 Image for Orange Pi Zero 2
+https://github.com/F1ATB/Remote-SDR/releases/tag/v5.0i_opiz2
+
 <h3>Version 4.5 Releases :</h3>
 
 Release v4.5s Source code here :
