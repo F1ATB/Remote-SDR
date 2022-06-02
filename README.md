@@ -25,6 +25,8 @@ https://github.com/F1ATB/Remote-SDR/releases/tag/v5.0i_rpi4
 Release  v5.0i_opiz2 Image for Orange Pi Zero 2
 https://github.com/F1ATB/Remote-SDR/releases/tag/v5.0i_opiz2
 
+Version 5.01 is installed directly by clicking on "Look for updates" in the "Tools" page.
+
 <h3>Version 4.5 Releases :</h3>
 
 Release v4.5s Source code here :
