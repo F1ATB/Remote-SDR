@@ -27,6 +27,9 @@ https://github.com/F1ATB/Remote-SDR/releases/tag/v5.0i_opiz2
 
 Version 5.02 is installed directly by clicking on "Look for updates" in the "Tools" page.
 
+The source of Version 5.02 is avalable here:
+https://github.com/F1ATB/Remote-SDR/releases/tag/v5.02s
+
 <h3>Version 4.5 Releases :</h3>
 
 Release v4.5s Source code here :
