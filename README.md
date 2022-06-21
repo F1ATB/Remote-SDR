@@ -30,6 +30,9 @@ Version 5.02 is installed directly by clicking on "Look for updates" in the "Too
 The source of Version 5.02 is avalable here:
 https://github.com/F1ATB/Remote-SDR/releases/tag/v5.02s
 
+Release  v5.04i_opi1p Image for Orange Pi One Plus
+https://github.com/F1ATB/Remote-SDR/releases/tag/v5.04i_opi1p
+
 <h3>Version 4.5 Releases :</h3>
 
 Release v4.5s Source code here :
@@ -77,30 +80,7 @@ https://github.com/F1ATB/Remote-SDR/releases/tag/v4.2i_rpi4
 Release v4.2i_opi1 Image for Orange Pi One Plus
 https://github.com/F1ATB/Remote-SDR/releases/tag/v4.2i_opi1
 
-<h3>Version 4.1 Releases :</h3>
 
-Release v4.1i_opiz2 Image for Orange Pi Zero 2
-https://github.com/F1ATB/Remote-SDR/releases/tag/v4.1i_opiz2
-
-Release v4.1i_rpi4 Image for Raspberry Pi 4B
-https://github.com/F1ATB/Remote-SDR/releases/tag/v4.1i_rpi4
-
-Release v4.1s Source code here :
-https://github.com/F1ATB/Remote-SDR/releases/tag/v4.1s
-
-<h3>Version 4.0 Releases :</h3>
-
-Release v4.0i_opi1 Image for Orange One Plus
-https://github.com/F1ATB/Remote-SDR/releases/tag/v4.0i_opi1
-
-Release v4.0i_opiz2 Image for Orange Pi Zero 2
-https://github.com/F1ATB/Remote-SDR/releases/tag/v4.0i_opiz2
-
-Release v4.0s Source Code here :
-https://github.com/F1ATB/Remote-SDR/releases/tag/v4.0s
-
-Release v4.0i_rpi4 Image for Raspberry Pi 4B
-https://github.com/F1ATB/Remote-SDR/releases/tag/v4.0i_rpi4
 
 
 
