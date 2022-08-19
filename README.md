@@ -30,8 +30,8 @@ Version 5.02 is installed directly by clicking on "Look for updates" in the "Too
 The source of Version 5.02 is avalable here:
 https://github.com/F1ATB/Remote-SDR/releases/tag/v5.02s
 
-Release  v5.04i_opi1p Image for Orange Pi One Plus
-https://github.com/F1ATB/Remote-SDR/releases/tag/v5.04i_opi1p
+Release  v5.06i_opi1p Image for Orange Pi One Plus
+https://github.com/F1ATB/Remote-SDR/releases/tag/v5.06i_opi1p
 
 <h3>Version 4.5 Releases :</h3>
 
