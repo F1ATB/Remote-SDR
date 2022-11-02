@@ -34,7 +34,7 @@ Release  v5.06i_opi1p Image for Orange Pi One Plus
 https://github.com/F1ATB/Remote-SDR/releases/tag/v5.06i_opi1p
 
 Release  v5.08i_opi1p Image for Orange Pi One Plus
-https://github.com/F1ATB/Remote-SDR/releases/tag/v5.08_opi1p
+https://github.com/F1ATB/Remote-SDR/releases/tag/v5.08i_opi1p
 
 <h3>Version 4.5 Releases :</h3>
 
